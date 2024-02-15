@@ -14,15 +14,17 @@ ul li a, h1, footer {
 
 
 .page {
-  width: 720px;
-  margin: 0 auto;
-  padding-top: 70px;
+  width: 1092px;
+  margin: 71px auto;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  margin-bottom: 101px;
+  
 }
 
 ul {
@@ -36,7 +38,11 @@ a {
   color: white;
 }
 
-main section {
+ul li a:hover {
+  color: rgb(194, 182, 182);
+}
+
+main  {
   display: flex;
   align-items:  center;
   justify-content: space-between;
@@ -59,6 +65,10 @@ section p {
   color: #C2C2C2;
   font-size: 16px;
   line-height: 28px;
+  width: 604px;
+
+  margin-top: 59px;
+  text-align: center;
 }
 
 section p span {
@@ -69,8 +79,11 @@ section p span {
 .line {
   width: 568px;
   border: 1px solid #00BFA6;
-  height: 0;
- 
+  margin: 120px auto 0;
+
+
+
+  
 }
 
 footer {
@@ -78,11 +91,11 @@ footer {
   font-size: 14px;
   line-height: 28px;
   text-align: center;
-  margin-top: 160px;
+  margin-top: 27px;
 }
 
 #padlock {
-  position: fixed;
+  position:fixed;
   bottom: 0;
   left: 0;
 }
